@@ -48,8 +48,8 @@ table {
 }
 /* custom style */
 body{
-    padding-bottom: 200px;
-    line-height: 1;
+    padding-bottom: 300px;
+    font-family: sans-serif;
 }
 .center{
     text-align: center;
@@ -92,10 +92,10 @@ nav{
 }
 
 .hero-header{
-    padding: 65px;
+    padding: 30px;
 }
 h1{
-    font-size: 50px;
+    font-size: 45px;
 }
 h2{
     font-size: 35px;
@@ -103,27 +103,15 @@ h2{
 }
 .box{
     display: inline-block;
-    height: 325px;
-    width: 325px;
-    margin: 50px;
-    border-radius: 10%;
-    background-color: #90FFA9;
-}
-.middle-box{
-    margin:20px;
-    border-radius: 5%;
-    display: inline-block;
-    height: 285px;
-    width: 285px;
-    background-color: #0D1430;
-}
-.inner-box{
-    margin: 30px;
-    display: inline-block;
-    height: 225px;
-    width: 225px;
+    height: 250px;
+    width: 250px;   
     background-color: #99D8CA;
+    border: 10px solid #0D1430 ;
+    border-radius: 10px;
+    box-shadow: 0 0 0 20px #90ffA9;
     outline:20px solid #5873E2;
+    outline-offset: -30px;
+    margin: 55px 0;
 }
 .circle{
     display: inline-block;
@@ -166,8 +154,7 @@ h2{
     width: 200px;
     height: 180px;
     background-color: #DAE0FA;
-    margin:5px;
-    padding: 5px;
+    margin:10px;
 }
 .inner-container-border{
      outline:2px solid black; 
